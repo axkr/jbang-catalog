@@ -1,5 +1,13 @@
 {
   "catalogs": {},
-  "aliases": {},
+  "aliases": {
+    "symjajsh": {
+      "script-ref": "https://github.com/axkr/symja_android_library/blob/master/symja_android_library/start-symja.jsh",
+      "repositories": [
+        "org.matheclipse:matheclipse-core:2.0.0",
+        "org.matheclipse:matheclipse-io:2.0.0"
+      ]
+    }
+  },
   "templates": {}
 }
