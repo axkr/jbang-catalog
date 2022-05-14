@@ -7,7 +7,12 @@
     "helloSymja": {
       "script-ref": "helloSymja.java",
       "description": "Hello world example to show how to call Symja functions."
+    },
+    "mma": {
+      "script-ref": "mmaConsole.java",
+      "description": "Run Symja in Mathematica compatible syntax mode."
     }
+    
   },
   "templates": {}
 }
