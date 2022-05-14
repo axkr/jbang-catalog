@@ -1,18 +1,37 @@
 {
-  "catalogs": {},
-  "aliases": {
-    "symjajsh": {
-      "script-ref": "https://github.com/axkr/symja_android_library/blob/master/symja_android_library/start-symja.jsh" 
+	"catalogs": {
+		
+	},
+	"aliases": {
+		"symjajsh": {
+			"script-ref": "https://github.com/axkr/symja_android_library/blob/master/symja_android_library/start-symja.jsh"
+		},
+		"helloSymja": {
+			"script-ref": "helloSymja.java",
+			"description": "Hello world example to show how to call Symja functions."
+		},
+		"symja": {
+			"script-ref": "org.matheclipse:matheclipse-io:2.0.0",
+			"main": "org.matheclipse.io.eval.Console",
+		    "description": "Run Symja in command line mode."
+		},
+		"mma": {
+			"script-ref": "org.matheclipse:matheclipse-io:2.0.0",
+			"main": "org.matheclipse.io.eval.MMAConsole",
+		    "description": "Run Symja in Mathematica compatible command line syntax mode."
+		},
+		"server": {
+			"script-ref": "org.matheclipse:matheclipse-io:2.0.0",
+			"main": "org.matheclipse.io.servlet.ServletServer",
+		    "description": "Run Symja as a webserver."
+		},
+		"mmaserver": {
+			"script-ref": "org.matheclipse:matheclipse-io:2.0.0",
+			"main": "org.matheclipse.io.servlet.MMAServletServer",
+		    "description": "Run Symja as a webserver in Mathematica compatible syntax mode."
+		}
     },
-    "helloSymja": {
-      "script-ref": "helloSymja.java",
-      "description": "Hello world example to show how to call Symja functions."
-    },
-    "mma": {
-      "script-ref": "mmaConsole.java",
-      "description": "Run Symja in Mathematica compatible syntax mode."
-    }
-    
-  },
-  "templates": {}
+	"templates": {
+		
+	}
 }
