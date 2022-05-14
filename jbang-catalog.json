@@ -3,6 +3,10 @@
   "aliases": {
     "symjajsh": {
       "script-ref": "https://github.com/axkr/symja_android_library/blob/master/symja_android_library/start-symja.jsh" 
+    },
+    "helloSymja": {
+      "script-ref": "helloSymja.java",
+      "description": "Hello world example to show how to call Symja functions."
     }
   },
   "templates": {}
