@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "symjajsh": {
-      "script-ref": "https://raw.githubusercontent.com/axkr/symja_android_library/master/symja_android_library/start-symja.jsh" 
+      "script-ref": "https://github.com/axkr/symja_android_library/blob/master/symja_android_library/start-symja.jsh" 
     }
   },
   "templates": {}
