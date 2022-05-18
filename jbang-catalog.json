@@ -29,6 +29,11 @@
 			"script-ref": "org.matheclipse:matheclipse-io:2.0.0",
 			"main": "org.matheclipse.io.servlet.MMAServletServer",
 		    "description": "Run Symja as a webserver in Mathematica compatible syntax mode."
+		},
+		"apiserver": {
+			"script-ref": "org.matheclipse:matheclipse-api:2.0.0",
+			"main": "org.matheclipse.api.SymjaServer",
+		    "description": "Run Symja as a JSON API Server."
 		}
     },
 	"templates": {
